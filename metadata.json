@@ -1,0 +1,6 @@
+{
+  "name": "Browser PDF Toolkit",
+  "description": "Client-side PDF utility for compressing, merging, splitting, converting, and organizing PDF documents securely in the browser.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
