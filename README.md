@@ -1,20 +1,44 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# 📄 Browser PDF Toolkit
 
-# Run and deploy your AI Studio app
+A lightweight, privacy-focused, 100% client-side PDF utility suite designed for fast, seamless PDF manipulation without server dependency.
 
-This contains everything you need to run your app locally.
+![React](https://img.shields.io/badge/React-18.x-61DAFB?style=flat-square&logo=react)
+![TypeScript](https://img.shields.io/badge/TypeScript-5.x-3178C6?style=flat-square&logo=typescript)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-v4-06B6D4?style=flat-square&logo=tailwindcss)
+![Vite](https://img.shields.io/badge/Vite-5.x-646CFF?style=flat-square&logo=vite)
+![Privacy](https://img.shields.io/badge/Privacy-100%25_Client--Side-emerald?style=flat-square)
 
-View your app in AI Studio: https://ai.studio/apps/0f8af43b-f676-424a-8986-c31a70acfea0
+---
 
-## Run Locally
+## ✨ Key Features
 
-**Prerequisites:**  Node.js
+- **⚡ PDF Compression**: Optimize PDF size with customizable quality levels (Extreme, Recommended, Less Compression) and real-time savings calculations.
+- **🔀 Merge & Split**: Combine multiple PDF documents into a single cohesive file or extract specific page ranges with ease.
+- **🖼️ Image ↔ PDF Converter**: Convert image formats (`PNG`, `JPG`, `WEBP`) into formatted PDFs or render PDF pages as high-resolution images.
+- **🔄 Organize & Rotate**: Visual grid view to rotate individual pages, reorder via drag-and-drop, or remove unwanted pages.
+- **🔒 Zero-Server Privacy**: All operations process directly inside your browser via WebAssembly and HTML5 Canvas. No files ever leave your local machine.
 
+---
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+## 🛠️ Tech Stack
+
+- **Framework**: React + TypeScript + Vite
+- **Styling**: Tailwind CSS (v4)
+- **PDF Core**: `pdf-lib` & `pdfjs-dist`
+- **Icons**: Lucide React
+- **Package Manager**: Bun / NPM
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+Ensure you have [Node.js](https://nodejs.org/) (v18+) or [Bun](https://bun.sh/) installed.
+
+### Installation
+
+1. **Clone the repository**:
+   ```bash
+   git clone [https://github.com/nawalauliahasanhunaifa/pdf.git](https://github.com/nawalauliahasanhunaifa/pdf.git)
+   cd pdf
