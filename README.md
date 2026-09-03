@@ -10,6 +10,10 @@ A lightweight, privacy-focused, 100% client-side PDF utility suite designed for 
 
 ---
 
+![Work in Progress](https://raw.githubusercontent.com/nawal-io/pdf/main/assets/pdfbanner.png)
+
+---
+
 ## ✨ Key Features
 
 - **⚡ PDF Compression**: Optimize PDF size with customizable quality levels (Extreme, Recommended, Less Compression) and real-time savings calculations.
